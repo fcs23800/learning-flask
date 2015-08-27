@@ -18,7 +18,7 @@
             <li>
               {% if not session.logged_in %}
                 <a href="{{ url_for('login') }}">Log in</a>
-              {% else %}
+              {% else  %}
                 <a href="{{ url_for('logout') }}">Log out</a>
               {% endif %}
             </li>
