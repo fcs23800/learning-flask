@@ -124,6 +124,8 @@ header {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .main-nav li a {
