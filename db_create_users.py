@@ -1,3 +1,4 @@
+from routes import app
 from models import db, User
 
 # create the database and the db table
