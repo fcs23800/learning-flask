@@ -1,5 +1,9 @@
 from models import db, User
 
+# create the database and the db table
+db.init_app(app)
+db.create_all()
+
 # insert data
 db.session.add(User("admin", "admin", "ad@min.com", "P@ssw0rd!"))
 db.session.add(User("Nupur", "Patel", "npatel@fcsinet.com", "let-me-in"))
