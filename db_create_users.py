@@ -1,8 +1,7 @@
-from routes import app
 from models import db, User
 
 # create the database and the db table
-db.init_app(app)
+#db.init_app(app)
 db.create_all()
 
 # insert data
