@@ -1,5 +1,5 @@
-from routes import db
-from models import User
+from models import db, User
+
 
 # insert data
 db.session.add(User("admin", "admin", "ad@min.com", "P@ssw0rd!"))
