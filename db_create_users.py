@@ -1,4 +1,5 @@
-from models import db, User
+from routes import db
+from models import *
 import os
 
 # create the database and the db table
