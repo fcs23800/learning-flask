@@ -1,4 +1,5 @@
 from models import db, User
+import os
 
 # create the database and the db table
 #db.init_app(app)
